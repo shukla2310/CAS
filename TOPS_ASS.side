@@ -1,0 +1,76 @@
+{
+  "id": "ae2ffb8f-1770-488e-b87c-a98719d9426a",
+  "version": "2.0",
+  "name": "TOPS_ASS",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "9e3ea325-d6d2-4e58-9e38-a199b1b7b934",
+    "name": "TOPS_DEMO",
+    "commands": [{
+      "id": "8a9739f5-d0f9-4a33-8755-927e4de95741",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d966b3a6-d014-40de-a512-6d3038c87b72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33b767cb-fea8-4dfa-b8f2-54e9d4ecf178",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(6) > .nav-link",
+      "targets": [
+        ["css=.dropdown:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarNav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[190]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ff29b1-aa15-4849-bcc6-d4e3af5a59de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-3:nth-child(4)",
+      "targets": [
+        ["css=.my-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='course-page']/footer/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede4b314-2503-4fb3-90c3-e97dbefeaa00",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.my-3:nth-child(4)",
+      "targets": [
+        ["css=.my-3:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='course-page']/footer/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//footer/div/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098e4862-e6cf-46e2-976e-3a6a2edbc952",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c9bdea1-70a7-4d97-bf2d-118feb939052",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e3ea325-d6d2-4e58-9e38-a199b1b7b934"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
